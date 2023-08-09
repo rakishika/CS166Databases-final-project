@@ -21,15 +21,4 @@ Users are able to retrieve their list of friends/connections, including relevant
 Users are able to search for the names of other users on the platform, receiving information based on each person searched such as their login ID and name.
 
 
-Implementation: 
-
-Data : The data that was provided to us was in the form of a .xlsx file so we had to convert those tables into a .csv and .tsv file. We had to clean the data before we began because we encountered multiple errors while trying to run the tables. We found extra commas at the end of each line of the file in the connection’s table, so we used text edit to replace these 2 commas found at the end of each line by replacing them with a blank space. For the message table, we converted that information into a .tsv file instead of a .csv file because of the special characters along with commas that are in this table so we decided using a .tsv file would be a better fit. For the other tables we stuck with converting them to a .csv file. Overall we were able to convert the excel sheet into files necessary for our project by using the Numbers app and creating a file for each  of the 5 tables. After cleaning the data we moved on to the sql portion.
-
-Create Tables, Bulkload Data Scripts:  In create_tables.sql, in the CREATE TABLE USR, we increased the size for names and passwords to 30, as they were 10 earlier. Then we added a foreign key to each table so that it could reference the user table. At the end, we added a message sequence to generate a number for the next message. We worked on the load_data.sql so that the files could be copied in.
-
-After these were completed, we started up the database and ran source ./create_db.sh to generate the tables.
-
-Java:  We combined ProfNetwork.java with Messenger.java and completed several functions to implement the needed features in the project.
-
-
 
