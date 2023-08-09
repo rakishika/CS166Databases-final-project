@@ -4,6 +4,9 @@ Creating a  LinkedIn-like networking organizer to manage users, messages, and th
 ERD Diagram:
 <img width="1212" alt="Screenshot 2023-08-08 at 11 49 52 PM" src="https://github.com/rakishika/CS166Databases-final-project/assets/33856993/609411a9-0275-426d-94f1-b301b4fe875a">
 
+![166phase2](https://github.com/rakishika/CS166Databases-final-project/assets/33856993/3178b889-397d-4f01-b6e7-cd58f14d940c)
+
+
 We are pleased to present our professional network application. The application is written in Java and implements JDBC to communicate with an SQL server in order to handle large amounts of individual user data. Using the command line interface, users are able to log-in to or register new accounts, search for and make connections with other users, and send messages to other users.
 
 New users can easily create a new account by providing information about their login ID, email address, full name and by choosing a password. Existing users can log in using their login ID and password.
